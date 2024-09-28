@@ -10,7 +10,7 @@ import streamlit as st
 from src.ShiftScheduler import ShiftScheduler
 
 import matplotlib.pyplot as plt
-import japanize_matplotlib
+
 
 # タイトル
 st.title("シフトスケジューリングアプリ")
