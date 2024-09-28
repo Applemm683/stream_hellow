@@ -17,11 +17,11 @@ st.title("シフトスケジューリングアプリ")
 
 # サイドバー
 st.sidebar.header("データのアップロード")
-# calendar_file = st.sidebar.file_uploader("カレンダー", type=["csv"])
-# staff_file = st.sidebar.file_uploader("スタッフ", type=["csv"])
-
-calendar_file = "data/calendar.csv"
-staff_file = "data/staff.csv"
+calendar_file = st.sidebar.file_uploader("カレンダー", type=["csv"])
+staff_file = st.sidebar.file_uploader("スタッフ", type=["csv"])
+# 開発中は以下を使用
+# calendar_file = "data/calendar.csv"
+# staff_file = "data/staff.csv"
 
 
 # タブ
